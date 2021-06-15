@@ -29,9 +29,14 @@ export default class CanvasSection extends React.Component {
     }
 
     demoTypes = {
-        'particle-lines': (options) => {
-            const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: section.options.particle_count, maxLineDistance: 150});
-            this.drawQueue.push(engine);
+        'particle-lines': {
+            up: (options) => {
+                const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: section.options.particle_count, maxLineDistance: 150});
+                this.drawQueue.push(engine);
+            },
+            down: () => {
+                
+            }
         }
     }
 
