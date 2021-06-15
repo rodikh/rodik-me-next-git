@@ -713,7 +713,7 @@ models:
         - type: text
           name: demo_configuration
           label: Demo Configuration
-          default: '{}'
+          default: "{}"
         - type: enum
           name: demo_type
           label: Demo Type
