@@ -12,6 +12,14 @@ sections:
 
 
       This is where I keep some of my experimentes and projects.
+    actions:
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        icon: dribbble
+        new_window: false
+        no_follow: false
+        type: action
   - type: portfolio_section
     section_id: latest-projects
     layout_style: tiles
