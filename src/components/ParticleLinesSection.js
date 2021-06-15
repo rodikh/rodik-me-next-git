@@ -16,6 +16,8 @@ export default class ParticleLinesSection extends React.Component {
 
         this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
         this.canvasRef.current.height = 600;
+        this.ctx = canvas.getContext('2d');
+
         const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: section.options.particle_count, maxLineDistance: 150});
 
         setInterval(this.tick.bind(this), 1000 / this.fps);
