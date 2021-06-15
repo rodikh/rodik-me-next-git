@@ -5,7 +5,7 @@ import _ from 'lodash';
 import { withPrefix, classNames } from '../utils';
 import Header from './Header';
 import Footer from './Footer';
-import ParticleLines from '@rodikh/particle-lines/src/Particle'
+import ParticleLines from '@rodikh/particle-lines/src/ParticleLines'
 
 export default class Body extends React.Component {
     constructor(props) {
