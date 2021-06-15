@@ -15,6 +15,7 @@ export default class CanvasSection extends React.Component {
 
     componentDidMount() {
         const section = _.get(this.props, 'section');
+        const demoType = section.demoType;
 
         this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
         this.canvasRef.current.height = 600;
