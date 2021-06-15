@@ -26,6 +26,9 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia  erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
+  - options:
+      particle_count: 150
+    type: canvas_section
 seo:
   title: Nature Magazine
   description: This is the sample project description
