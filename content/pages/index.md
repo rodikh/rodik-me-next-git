@@ -20,7 +20,7 @@ sections:
         new_window: true
         no_follow: false
         type: action
-      - label: lorem-ipsum
+      - label: linkedin
         url: '#'
         style: link
         icon: dribbble
