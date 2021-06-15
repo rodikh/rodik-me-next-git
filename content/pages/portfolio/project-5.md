@@ -9,8 +9,13 @@ sections:
       particle_count: 50
     type: particle_lines_section
   - type: text_section
-    content: |
-      Code: <canvas id="particle-demo" />      
+    content: >
+      Particle lines is a particle simulation that uses collision detection to
+      draw lines between nearby points.
+
+
+      It uses a Particle system I developed, which can utilize quadtree
+      datastructures for more performant collision detection.
   - type: image_section
     image: images/work-magazine-2.jpg
     image_alt: Nature Magazine 2
