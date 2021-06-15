@@ -713,6 +713,7 @@ models:
         - type: number
           name: particle_count
           label: Particle Count
+          default: 150
   image_section:
     type: object
     label: Image Section
