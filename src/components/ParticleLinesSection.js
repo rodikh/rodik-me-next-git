@@ -34,6 +34,7 @@ export default class ParticleLinesSection extends React.Component {
     }
 
     tick() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.drawQueue.forEach(item => item.draw(this.ctx))
     }
 
