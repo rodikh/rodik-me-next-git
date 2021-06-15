@@ -30,7 +30,9 @@ export default class CanvasSection extends React.Component {
     }
 
     demoTypes = {
-        
+        'particle-lines': () => {
+            
+        }
     }
 
     componentWillUnmount() {
