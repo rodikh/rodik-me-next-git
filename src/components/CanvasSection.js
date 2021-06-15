@@ -53,6 +53,9 @@ export default class CanvasSection extends React.Component {
                 this.drawQueue.push(exploder, emitter1, emitter2, emitter3);
             },
             down: () => {}
+        },
+        'forces': {
+            
         }
     }
 
