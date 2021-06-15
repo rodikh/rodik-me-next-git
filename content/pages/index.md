@@ -5,10 +5,13 @@ sections:
   - type: hero_section
     section_id: hero
     title: I'm Rodik Hanukaev
-    content: >-
-      We are a brand and design practice. We work closely with you, your team to
-      deliver inspiring work, which enables your organization to grow. [Let's
-      talk](/contact/).
+    content: >
+      I'm a software engineer, helping build
+      [stackbit](https://www.stackbit.com). I occasionally work on other things,
+      and in rare occasions, write about stuff.
+
+
+      This is where I keep some of my experimentes and projects.
   - type: portfolio_section
     section_id: latest-projects
     layout_style: tiles
