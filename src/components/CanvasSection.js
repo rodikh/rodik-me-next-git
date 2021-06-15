@@ -21,6 +21,7 @@ export default class CanvasSection extends React.Component {
         this.canvasRef.current.height = 600;
         this.ctx = this.canvasRef.current.getContext('2d');
 
+        console.log('section',section)
         let options = {};
         try {
             options = JSON.parse(_.get(section, 'options.demo_configuration', '{}'));
