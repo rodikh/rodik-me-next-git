@@ -4,7 +4,7 @@ import _ from 'lodash';
 import { markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
 
-export default class HeroSection extends React.Component {
+export default class ParticleLinesSection extends React.Component {
     render() {
         const section = _.get(this.props, 'section');
         const sectionId = _.get(section, 'section_id');
