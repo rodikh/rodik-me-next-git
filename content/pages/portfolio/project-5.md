@@ -33,7 +33,7 @@ sections:
       arcu accumsan lorem amet accumsan.
   - options:
       demo_configuration: '{}'
-    demo_type: particle-lines
+    demo_type: forces
     type: canvas_section
 seo:
   title: Nature Magazine
