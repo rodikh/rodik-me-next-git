@@ -22,9 +22,7 @@ sections:
       arcu accumsan lorem amet accumsan.
 
 
-
-
-      \<strong> works? \</strong>
+      <strong> works? </strong>
   - type: image_section
     image: images/work-magazine-2.jpg
     image_alt: Nature Magazine 2
