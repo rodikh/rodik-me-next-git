@@ -23,7 +23,7 @@ sections:
     section_id: cta
     title: Talk to me!
     content: |
-      Say hello at hello(at)rodik.me, I usually reply pretty quickly.
+      Send me an email at hello(at)rodik.me, I usually reply pretty quickly.
     actions: []
     image: images/cta.svg
     image_alt: Illustration
