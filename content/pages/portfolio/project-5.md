@@ -6,7 +6,6 @@ thumb_image: images/work-magazine-1-thumb.jpg
 thumb_image_alt: Nature Magazine preview
 sections:
   - options:
-      particle_count: 50
       demo_configuration: '{"particle_count": 50}'
       demo_type: particle-lines
     type: canvas_section
