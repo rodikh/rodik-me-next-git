@@ -3,6 +3,7 @@ import _ from 'lodash';
 
 import { markdownify } from '../utils';
 import CtaButtons from './CtaButtons';
+import * as ParticleLines from '@rodikh/particle-lines';
 
 export default class ParticleLinesSection extends React.Component {
     constructor (props) {
@@ -10,7 +11,7 @@ export default class ParticleLinesSection extends React.Component {
         this.canvasRef = React.createRef();
     }
     componentDidMount() {
-        
+
     }
 
     render() {
