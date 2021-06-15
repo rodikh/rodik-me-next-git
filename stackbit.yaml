@@ -705,7 +705,7 @@ models:
     type: object
     label: ParticleLines Section
     fields:
-      - type: markdown
+      - type: options
         name: content
         label: Content
         description: The text content of the section
