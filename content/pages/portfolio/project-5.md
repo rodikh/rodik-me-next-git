@@ -7,7 +7,7 @@ thumb_image_alt: Nature Magazine preview
 sections:
   - options:
       particle_count: 50
-    type: particle_lines_section
+    type: canvas_section
   - type: text_section
     content: >
       Particle lines is a particle simulation that uses collision detection to
