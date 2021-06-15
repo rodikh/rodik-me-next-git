@@ -9,6 +9,7 @@ sections:
       demo_configuration: '{"particle_count": 50}'
       demo_type: particle-lines
     type: canvas_section
+    demo_type: particles
   - type: text_section
     content: >
       Particle lines is a particle simulation that uses collision detection to
@@ -27,7 +28,7 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia  erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
-  - options:
+  - options: {}
     type: canvas_section
 seo:
   title: Nature Magazine
