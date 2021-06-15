@@ -709,7 +709,9 @@ models:
         name: options
         label: Options
         fields:
-        - 
+        - type: number
+          name: particle_count
+          label: Particle Count
   image_section:
     type: object
     label: Image Section
