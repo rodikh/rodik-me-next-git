@@ -10,6 +10,9 @@ sections:
     image_alt: Nature Magazine 1
     caption: This is the caption of the image
     width: wide
+  - options:
+      particle_count: 150
+    type: particle_lines_section
   - type: text_section
     content: |
       Code: <canvas id="particle-demo" />      
@@ -37,9 +40,6 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
-  - options:
-      particle_count: 150
-    type: particle_lines_section
 seo:
   title: Nature Magazine
   description: This is the sample project description
