@@ -46,7 +46,7 @@ export default class CanvasSection extends React.Component {
         },
         'particles': {
             up: (canvas, options) => {
-
+                
             },
             down: () => {}
         }
