@@ -28,7 +28,7 @@
     "sourcebit-source-filesystem": "^0.1.3",
     "sourcebit-target-next": "^0.6.2",
     "webpack": "^5.24.1",
-    "@rodikh/particle-lines": "^1.0.2"
+    "@rodikh/particle-lines": "^1.0.3"
   },
   "devDependencies": {
     "prettier": "^2.2.1"
