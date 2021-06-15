@@ -10,7 +10,7 @@ export default class ParticleLinesSection extends React.Component {
         const sectionId = _.get(section, 'section_id');
         
         return (
-            <section id={sectionId} className="hero">
+            <section id={sectionId} className="particle-lines">
                 <div className="container container--lg">
                     {title && <h1 className="hero__title">{title}</h1>}
                     {content && (
