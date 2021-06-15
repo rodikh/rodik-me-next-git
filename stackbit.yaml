@@ -714,6 +714,10 @@ models:
           name: particle_count
           label: Particle Count
           default: 150
+        - type: enum
+          name: tag
+          label: Tag
+          options: [foo, bar, baz]
   image_section:
     type: object
     label: Image Section
