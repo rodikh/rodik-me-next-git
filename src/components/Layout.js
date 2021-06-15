@@ -16,9 +16,7 @@ export default class Body extends React.Component {
 
     componentDidMount() {
         this.handleVideoEmbeds();
-
-        const canvas = document.getElementById('main');
-        new ParticleLines(canvas, {particlesAmount: 100, maxDistance: 150});
+        new ParticleLines(this.canvas, {particlesAmount: 100, maxDistance: 150});
     }
 
     componentDidUpdate() {
