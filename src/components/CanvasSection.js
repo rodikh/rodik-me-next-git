@@ -27,7 +27,7 @@ export default class CanvasSection extends React.Component {
         } catch(e) {}
 
         if (this.demoTypes[demoType]) {
-            this.demoTypes[demoType].up(options);
+            this.demoTypes[demoType].up(canvas, options);
         }
         
         this.interval = setInterval(this.tick.bind(this), 1000 / this.fps);
