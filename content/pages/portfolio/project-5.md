@@ -7,6 +7,7 @@ thumb_image_alt: Nature Magazine preview
 sections:
   - options:
       particle_count: 50
+      demo_configuration: particle_count
     type: canvas_section
   - type: text_section
     content: >
