@@ -29,7 +29,9 @@ export default class CanvasSection extends React.Component {
 
     }
 
-    
+    demoTypes = {
+        
+    }
 
     componentWillUnmount() {
         clearInterval(this.interval)
