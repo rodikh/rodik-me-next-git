@@ -6,7 +6,7 @@ thumb_image: images/work-magazine-1-thumb.jpg
 thumb_image_alt: Nature Magazine preview
 sections:
   - options:
-      particle_count: 150
+      particle_count: 50
     type: particle_lines_section
   - type: text_section
     content: |
