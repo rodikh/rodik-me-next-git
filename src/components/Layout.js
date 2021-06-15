@@ -19,7 +19,7 @@ export default class Body extends React.Component {
         
         this.particlesRef.current.width = window.innerWidth;
         this.particlesRef.current.height = window.innerHeight;
-        new ParticleLines(this.particlesRef.current, {particlesAmount: (window.innerWidth * window.innerHeight) / (120 * 120), maxDistance: 150});
+        new ParticleLines(this.particlesRef.current, {particlesAmount: (window.innerWidth * window.innerHeight) / (120 * 120), maxDistance: 150, maxVelocity: 0.4});
     }
 
     componentDidUpdate() {
