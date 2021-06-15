@@ -14,7 +14,7 @@ sections:
       This is where I keep some of my experimentes and projects.
     actions:
       - label: twitter
-        url: '#'
+        url: 'https://twitter.com/rodiktries'
         style: link
         icon: dribbble
         new_window: false
