@@ -2,7 +2,7 @@
 title: Particle Effects
 subtitle: Particle engine implemented in Javascript
 date: '2021-01-10'
-thumb_image: images/work-magazine-1-thumb.jpg
+thumb_image: /images/Screen Shot 2021-06-15 at 22.03.35.png
 thumb_image_alt: Nature Magazine preview
 sections:
   - options:
