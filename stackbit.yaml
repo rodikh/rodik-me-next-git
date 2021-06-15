@@ -705,10 +705,11 @@ models:
     type: object
     label: ParticleLines Section
     fields:
-      - type: options
-        name: content
-        label: Content
-        description: The text content of the section
+      - type: object
+        name: options
+        label: Options
+        fields:
+        - 
   image_section:
     type: object
     label: Image Section
