@@ -1,8 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 
-import { markdownify } from '../utils';
-import CtaButtons from './CtaButtons';
 import * as ParticleLines from '@rodikh/particle-lines';
 
 export default class ParticleLinesSection extends React.Component {
