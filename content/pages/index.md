@@ -6,7 +6,7 @@ sections:
     section_id: hero
     title: I'm Rodik Hanukaev
     content: >
-      I'm a software engineer, helping build
+      I'm a Software Engineer, helping build
       [stackbit.com](https://www.stackbit.com). I occasionally work on other
       things, and in rare occasions, write about stuff.
 
