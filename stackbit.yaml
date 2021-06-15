@@ -357,7 +357,7 @@ models:
           models:
             - image_section
             - text_section
-            - particle_lines_section
+            - canvas_section
       - type: model
         name: seo
         models:
