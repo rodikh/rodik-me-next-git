@@ -39,7 +39,6 @@ export default class CanvasSection extends React.Component {
     demoTypes = {
         'particle-lines': {
             up: (canvas, options) => {
-                console.log('running up', canvas, options);
                 const engine = new ParticleEngine(canvas, {color: '0,0,0', particleLines: true, particlesAmount: options.particle_count, maxLineDistance: 150});
                 this.drawQueue.push(engine);
             },
