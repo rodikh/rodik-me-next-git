@@ -24,7 +24,7 @@ sections:
         url: 'https://www.linkedin.com/in/rodikh/'
         style: icon
         icon: linkedin
-        new_window: false
+        new_window: true
         no_follow: false
         type: action
   - type: portfolio_section
