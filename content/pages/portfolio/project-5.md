@@ -14,7 +14,7 @@ sections:
     content: >
       Code:
       <canvas id="particle-demo" />      
-      <script src="">
+      
   - type: image_section
     image: images/work-magazine-2.jpg
     image_alt: Nature Magazine 2
