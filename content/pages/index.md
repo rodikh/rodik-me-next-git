@@ -21,7 +21,7 @@ sections:
         no_follow: false
         type: action
       - label: linkedin
-        url: '#'
+        url: 'https://www.linkedin.com/in/rodikh/'
         style: link
         icon: dribbble
         new_window: false
