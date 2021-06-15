@@ -78,6 +78,7 @@ export default class Body extends React.Component {
                     <body className={classNames(`font-${font}`, `palette-${colorScheme}`, `accent-${accentColor}`)} />
                 </Helmet>
                 <div id="site-wrap" className="site">
+                    <canvas style={{height: }}>
                     <Header page={page} config={config} />
                     <main id="content" className="site-content">
                         {this.props.children}
