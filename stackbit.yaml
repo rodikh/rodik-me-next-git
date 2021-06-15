@@ -717,7 +717,7 @@ models:
         - type: enum
           name: demo_type
           label: Demo Type
-          options: [foo, bar, baz]
+          options: [particle-lines, ]
   image_section:
     type: object
     label: Image Section
