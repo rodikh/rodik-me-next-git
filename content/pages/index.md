@@ -24,10 +24,7 @@ sections:
     title: Talk to me!
     content: |
       Say hello at hello(at)rodik.me, I usually reply pretty quickly.
-    actions:
-      - label: Let's start
-        url: /contact
-        style: button
+    actions: []
     image: images/cta.svg
     image_alt: Illustration
     bg_color: light
