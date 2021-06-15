@@ -704,7 +704,7 @@ models:
         description: The text content of the section
   canvas_section:
     type: object
-    label: ParticleLines Section
+    label: Canvas Section
     fields:
       - type: object
         name: options
