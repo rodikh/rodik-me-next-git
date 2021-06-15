@@ -39,7 +39,7 @@ sections:
       arcu accumsan lorem amet accumsan.
   - options:
       particle_count: 0
-    type: particlelines_section
+    type: particle_lines_section
 seo:
   title: Nature Magazine
   description: This is the sample project description
