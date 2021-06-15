@@ -27,7 +27,7 @@ export default class CanvasSection extends React.Component {
         } catch(e) {}
 
         if (this.demoTypes[demoType]) {
-            this.demoTypes[demoType].up(canvas, options);
+            this.demoTypes[demoType].up(this.canvasRef.current, options);
         }
         
         this.interval = setInterval(this.tick.bind(this), 1000 / this.fps);
@@ -35,8 +35,8 @@ export default class CanvasSection extends React.Component {
 
     demoTypes = {
         'particle-lines': {
-            up: (options) => {
-                const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: options.particle_count, maxLineDistance: 150});
+            up: (canvas, options) => {
+                const engine = new ParticleEngine(canvas, {color: '0,0,0', particleLines: true, particlesAmount: options.particle_count, maxLineDistance: 150});
                 this.drawQueue.push(engine);
             },
             down: () => {}
