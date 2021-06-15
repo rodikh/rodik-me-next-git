@@ -13,7 +13,7 @@ sections:
 
       This is where I keep some of my experimentes and projects.
     actions:
-      - label: lorem-ipsum
+      - label: twitter
         url: '#'
         style: link
         icon: dribbble
