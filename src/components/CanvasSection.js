@@ -28,7 +28,6 @@ export default class CanvasSection extends React.Component {
             console.log('error parsing json options', section.options)
         }
 
-        console.log('options', options)
         if (this.demoTypes[demoType]) {
             this.demoTypes[demoType].up(this.canvasRef.current, options);
         }
