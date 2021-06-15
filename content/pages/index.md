@@ -18,7 +18,7 @@ sections:
         style: icon
         icon: twitter
         new_window: true
-        no_follow: true
+        no_follow: false
         type: action
   - type: portfolio_section
     section_id: latest-projects
