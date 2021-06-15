@@ -22,9 +22,8 @@ sections:
   - type: cta_section
     section_id: cta
     title: Talk to me!
-    content: >-
-      Say hello at [email@example.com](mailto:email@example.com) or tell us more
-      about your project by getting started below.
+    content: |
+      Say hello at hello(at)rodik.me, I usually reply pretty quickly.
     actions:
       - label: Let's start
         url: /contact
