@@ -16,7 +16,10 @@ export default class Body extends React.Component {
 
     componentDidMount() {
         this.handleVideoEmbeds();
-        new ParticleLines(this.particlesRef.current, {particlesAmount: 100, maxDistance: 150});
+        
+        this.particlesRef.current.width = window.innerWidth;
+        this.particlesRef.current.height = window.innerHeight;
+        new ParticleLines(this.particlesRef.current, {particlesAmount: (window.innerWidth * window.innerHeight) / (120 * 120), maxDistance: 150});
     }
 
     componentDidUpdate() {
