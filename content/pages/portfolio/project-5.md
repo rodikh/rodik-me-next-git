@@ -27,7 +27,7 @@ sections:
       euismod nunc adipiscing lacinia  erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
   - options:
-      particle_count: 150
+      particle_count: 50
     type: canvas_section
 seo:
   title: Nature Magazine
