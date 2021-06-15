@@ -702,7 +702,7 @@ models:
         name: content
         label: Content
         description: The text content of the section
-  particlelines_section:
+  particle_lines_section:
     type: object
     label: ParticleLines Section
     fields:
