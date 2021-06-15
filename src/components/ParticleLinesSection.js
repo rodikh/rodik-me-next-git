@@ -9,6 +9,8 @@ export default class ParticleLinesSection extends React.Component {
         super(props);
         this.canvasRef = React.createRef();
         this.drawQueue = [];
+        this.interval = null;
+        this.ctx = null;
     }
 
     componentDidMount() {
@@ -26,8 +28,13 @@ export default class ParticleLinesSection extends React.Component {
 
     }
 
+    componentWillUnmount() {
+        clearInterval(this.interval)
+        this.ctx = null;
+    }
+
     tick() {
-        drawQueue.forEach(item => item.draw(this.canvas))
+        this.drawQueue.forEach(item => item.draw(this.ctx))
     }
 
     render() {
