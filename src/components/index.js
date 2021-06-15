@@ -65,5 +65,5 @@ export default {
     PostsSection,
     TestimonialsSection,
     TextSection,
-    ParticleLinesSection
+    CanvasSection
 };
