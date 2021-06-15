@@ -23,7 +23,7 @@ export default class CanvasSection extends React.Component {
 
         let options = {};
         try {
-            options = JSON.parse(section.options);
+            options = JSON.parse(_.get(section, 'options.demo_configuration'));
         } catch(e) {
             console.log('error parsing json options', section.options)
         }
