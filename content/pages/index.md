@@ -20,6 +20,13 @@ sections:
         new_window: true
         no_follow: false
         type: action
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        icon: dribbble
+        new_window: false
+        no_follow: false
+        type: action
   - type: portfolio_section
     section_id: latest-projects
     layout_style: tiles
