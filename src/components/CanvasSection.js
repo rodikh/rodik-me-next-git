@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import * as ParticleLines from '@rodikh/particle-lines';
-import { ParticleEngine } from '@rodikh/particles';
+import { ParticleEngine, ParticleExploder, ParticleEmitter } from '@rodikh/particles';
 
 export default class CanvasSection extends React.Component {
     constructor (props) {
