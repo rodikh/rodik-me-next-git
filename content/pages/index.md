@@ -17,7 +17,7 @@ sections:
         url: 'https://twitter.com/rodiktries'
         style: icon
         icon: twitter
-        new_window: false
+        new_window: true
         no_follow: false
         type: action
   - type: portfolio_section
