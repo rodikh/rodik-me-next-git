@@ -15,6 +15,8 @@ export default class ParticleLinesSection extends React.Component {
 
         this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
         this.canvasRef.current.height = 600;
+        const engine = new ParticleEngine(bounds, {color: '0,0,0', particleLines: true});
+
         new ParticleLines(this.canvasRef.current, {particlesAmount: section.options.particle_count, maxDistance: 150});
 
     }
