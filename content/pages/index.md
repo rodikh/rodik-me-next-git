@@ -23,7 +23,7 @@ sections:
       - label: linkedin
         url: 'https://www.linkedin.com/in/rodikh/'
         style: icon
-        icon: dribbble
+        icon: linkedin
         new_window: false
         no_follow: false
         type: action
