@@ -1,6 +1,6 @@
 ---
 title: Oribtal Mechanics
-subtitle: Editorial Design
+subtitle: Orbital Physics simulation based on my Particle system
 date: '2020-04-10'
 thumb_image: images/work-book-cover-1-thumb.jpg
 thumb_image_alt: The Book preview
