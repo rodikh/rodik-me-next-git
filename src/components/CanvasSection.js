@@ -24,6 +24,7 @@ export default class CanvasSection extends React.Component {
         let options = {};
         try {
             options = JSON.parse(section.options);
+            console.log('options', options)
         } catch(e) {}
 
         if (this.demoTypes[demoType]) {
