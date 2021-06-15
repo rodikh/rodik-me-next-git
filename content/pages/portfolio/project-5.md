@@ -8,7 +8,7 @@ sections:
   - options:
       particle_count: 50
       demo_configuration: '{"particle_count": 50}'
-      demo_type: particles
+      demo_type: particle-lines
     type: canvas_section
   - type: text_section
     content: >
