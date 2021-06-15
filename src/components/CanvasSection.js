@@ -57,7 +57,7 @@ export default class CanvasSection extends React.Component {
         'forces': {
             up: (canvas, options) => {
                 const emitter1 = new ParticleEmitter({x: 150, y: 150}, {x:3, y:0}, canvas, {color: '255,255,255', isDecaying: false});
-                const mouseField = new MouseField(canvas, options)
+                const mouseField = new MouseField(canvas, {})
                 this.drawQueue.push(exploder, emitter1, emitter2, emitter3);
             },
             down: () => {}
