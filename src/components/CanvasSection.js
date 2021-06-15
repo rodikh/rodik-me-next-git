@@ -25,7 +25,7 @@ export default class CanvasSection extends React.Component {
         try {
             options = JSON.parse(section.options);
         } catch(e) {
-            console.log('error parsing json options')
+            console.log('error parsing json options', section.options)
         }
 
         console.log('options', options)
