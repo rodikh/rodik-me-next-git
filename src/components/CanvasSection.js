@@ -21,8 +21,7 @@ export default class CanvasSection extends React.Component {
         this.canvasRef.current.height = 600;
         this.ctx = this.canvasRef.current.getContext('2d');
 
-        const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: section.options.particle_count, maxLineDistance: 150});
-        this.drawQueue.push(engine);
+        
         this.interval = setInterval(this.tick.bind(this), 1000 / this.fps);
 
         // new ParticleLines(this.canvasRef.current, {particlesAmount: section.options.particle_count, maxDistance: 150});
@@ -31,7 +30,8 @@ export default class CanvasSection extends React.Component {
 
     demoTypes = {
         'particle-lines': (options) => {
-
+            const engine = new ParticleEngine(this.canvasRef.current, {color: '0,0,0', particleLines: true, particlesAmount: section.options.particle_count, maxLineDistance: 150});
+            this.drawQueue.push(engine);
         }
     }
 
