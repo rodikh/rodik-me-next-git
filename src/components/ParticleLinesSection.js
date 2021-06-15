@@ -10,21 +10,10 @@ export default class ParticleLinesSection extends React.Component {
         const sectionId = _.get(section, 'section_id');
         
         return (
-            <section id={sectionId} className="particle-lines">
-                <div className="container container--lg">
-                    {title && <h1 className="hero__title">{title}</h1>}
-                    {content && (
-                        <div className="hero__body text-block">
-                            {markdownify(content)}
-                        </div>
-                    )}
-                    {!_.isEmpty(actions) && (
-                        <div className="hero__actions button-group">
-                            <CtaButtons actions={actions} />
-                        </div>
-                    )}
-                </div>
-            </section>
+            <div className="text-block container container--md">
+                {markdownify(content)}
+            </div>
+
         );
     }
 }
