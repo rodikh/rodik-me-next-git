@@ -4,7 +4,7 @@ import _ from 'lodash';
 import * as ParticleLines from '@rodikh/particle-lines';
 import { ParticleEngine } from '@rodikh/particles';
 
-export default class ParticleLinesSection extends React.Component {
+export default class CanvasSection extends React.Component {
     constructor (props) {
         super(props);
         this.canvasRef = React.createRef();
