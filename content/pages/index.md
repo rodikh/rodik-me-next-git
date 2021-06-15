@@ -16,7 +16,7 @@ sections:
       - label: twitter
         url: 'https://twitter.com/rodiktries'
         style: icon
-        icon: dribbble
+        icon: twitter
         new_window: false
         no_follow: false
         type: action
