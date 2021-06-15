@@ -21,7 +21,12 @@ export default class CanvasSection extends React.Component {
         this.canvasRef.current.height = 600;
         this.ctx = this.canvasRef.current.getContext('2d');
 
-        this.demoTypes[demoType].up();
+        let options = {};
+        try {
+            options = JSON.parse(section.options);
+        } catch(e) {}
+
+        this.demoTypes[demoType].up(section.options);
         
         this.interval = setInterval(this.tick.bind(this), 1000 / this.fps);
 
