@@ -29,6 +29,8 @@ export default class CanvasSection extends React.Component {
 
     }
 
+    
+
     componentWillUnmount() {
         clearInterval(this.interval)
         this.ctx = null;
