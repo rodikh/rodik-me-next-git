@@ -17,6 +17,10 @@ sections:
 
       It uses a Particle system I developed, which can utilize quadtree
       datastructures for more performant collision detection.
+  - options:
+      demo_configuration: '{}'
+    type: canvas_section
+    demo_type: particles
   - type: text_section
     content: >-
       Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit
@@ -27,10 +31,6 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia  erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
-  - options:
-      demo_configuration: '{}'
-    type: canvas_section
-    demo_type: particles
 seo:
   title: Nature Magazine
   description: This is the sample project description
