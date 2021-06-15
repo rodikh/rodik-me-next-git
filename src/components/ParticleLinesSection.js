@@ -22,7 +22,7 @@ export default class ParticleLinesSection extends React.Component {
         return (
             <div className="embed-block container container--md">
                 <div className="canvas-wrapper">
-                    <canvas className="accent-box" id={section.canvas_id} ref={this.canvasRef} />
+                    <canvas id={section.canvas_id} ref={this.canvasRef} />
                 </div>
             </div>
 
