@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import * as ParticleLines from '@rodikh/particle-lines';
-import { Particle } from '@rodikh/particles';
+import { ParticleEngine } from '@rodikh/particles';
 
 export default class ParticleLinesSection extends React.Component {
     constructor (props) {
@@ -16,7 +16,7 @@ export default class ParticleLinesSection extends React.Component {
         this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
         this.canvasRef.current.height = 600;
         new ParticleLines(this.canvasRef.current, {particlesAmount: section.options.particle_count, maxDistance: 150});
-        
+
     }
 
     render() {
