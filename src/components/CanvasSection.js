@@ -44,6 +44,12 @@ export default class CanvasSection extends React.Component {
                 this.drawQueue.push(engine);
             },
             down: () => {}
+        },
+        'particles': {
+            up: (canvas, options) => {
+
+            },
+            down: () => {}
         }
     }
 
