@@ -12,7 +12,7 @@ export default class ParticleLinesSection extends React.Component {
     }
     componentDidMount() {
         this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
-        this.canvasRef.current.width = this.canvasRef.current.parentNode.clientWidth;
+        this.canvasRef.current.height = 600;
         new ParticleLines(this.canvasRef.current, {particlesAmount: 100, maxDistance: 150});
     }
 
