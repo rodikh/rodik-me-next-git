@@ -7,7 +7,7 @@ import CtaButtons from './CtaButtons';
 export default class ParticleLinesSection extends React.Component {
     constructor (props) {
         super(props);
-        this.canvasRef = React.ref
+        this.canvasRef = React.createRef();
     }
     componentDidMount() {
 
