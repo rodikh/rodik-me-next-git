@@ -25,7 +25,7 @@ export default class ParticleLinesSection extends React.Component {
     }
 
     tick() {
-
+        drawQueue.forEach(item => item.draw(this.canvas))
     }
 
     render() {
