@@ -9,7 +9,7 @@ export default class ParticleLinesSection extends React.Component {
         const section = _.get(this.props, 'section');
         
         return (
-            <div className="code-block container container--md">
+            <div className="embed-block container container--md">
                 
             </div>
 
