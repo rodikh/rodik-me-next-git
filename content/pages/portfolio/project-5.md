@@ -16,20 +16,6 @@ sections:
 
       It uses a Particle system I developed, which can utilize quadtree
       datastructures for more performant collision detection.
-  - type: image_section
-    image: images/work-magazine-2.jpg
-    image_alt: Nature Magazine 2
-    width: wide
-  - type: text_section
-    content: >-
-      Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa
-      massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing
-      placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus.
-      Aliquam lobortis faucibus blandit ac phasellus.
-  - type: image_section
-    image: images/work-magazine-3.jpg
-    image_alt: Nature Magazine 3
-    width: wide
   - type: text_section
     content: >-
       Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit
