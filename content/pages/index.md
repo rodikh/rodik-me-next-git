@@ -7,8 +7,8 @@ sections:
     title: I'm Rodik Hanukaev
     content: >
       I'm a software engineer, helping build
-      [stackbit](https://www.stackbit.com). I occasionally work on other things,
-      and in rare occasions, write about stuff.
+      [stackbit.com](https://www.stackbit.com). I occasionally work on other
+      things, and in rare occasions, write about stuff.
 
 
       This is where I keep some of my experimentes and projects.
