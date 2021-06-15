@@ -11,6 +11,8 @@ export default class Body extends React.Component {
     constructor(props) {
         super(props);
         this.handleVideoEmbeds = this.handleVideoEmbeds.bind(this);
+        this.particlesRef = React.createRef();
+
     }
 
     componentDidMount() {
