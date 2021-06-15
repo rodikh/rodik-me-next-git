@@ -9,8 +9,8 @@ export default class ParticleLinesSection extends React.Component {
         const section = _.get(this.props, 'section');
         
         return (
-            <div className="text-block container container--md">
-                {markdownify(content)}
+            <div className="code-block container container--md">
+                
             </div>
 
         );
