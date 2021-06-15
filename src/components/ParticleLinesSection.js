@@ -11,7 +11,7 @@ export default class ParticleLinesSection extends React.Component {
         this.canvasRef = React.createRef();
     }
     componentDidMount() {
-
+        ParticleLines()
     }
 
     render() {
