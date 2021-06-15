@@ -11,6 +11,7 @@ export default class ParticleLinesSection extends React.Component {
         this.canvasRef = React.createRef();
     }
     componentDidMount() {
+        
         new ParticleLines(this.canvasRef.current, {particlesAmount: 100, maxDistance: 150});
     }
 
