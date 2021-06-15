@@ -10,7 +10,7 @@ export default class ParticleLinesSection extends React.Component {
         
         return (
             <div className="text-block container container--md">
-                <canvas id=""
+                <canvas id={section.canvas_id} />
             </div>
 
         );
