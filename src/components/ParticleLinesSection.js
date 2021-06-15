@@ -23,6 +23,10 @@ export default class ParticleLinesSection extends React.Component {
 
     }
 
+    tick() {
+        
+    }
+
     render() {
         const section = _.get(this.props, 'section');
         
