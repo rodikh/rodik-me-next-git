@@ -715,8 +715,8 @@ models:
           label: Particle Count
           default: 150
         - type: enum
-          name: tag
-          label: Tag
+          name: demo_type
+          label: Demo Type
           options: [foo, bar, baz]
   image_section:
     type: object
