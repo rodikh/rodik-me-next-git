@@ -12,11 +12,8 @@
     margin-top: 2.5em;
 }
 
-.accent-box {
-    border: 3px solid $color-accent
-}
-
 .canvas-wrapper {
     width: 100%;
+    border: 3px solid $color-accent;
     background: $color-gray-700;
 }
