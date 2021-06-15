@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import * as ParticleLines from '@rodikh/particle-lines';
+import * as ParticleLines from '@rodikh/particle';
 
 export default class ParticleLinesSection extends React.Component {
     constructor (props) {
