@@ -40,7 +40,8 @@ export {
     PortfolioSection,
     PostsSection,
     TestimonialsSection,
-    TextSection
+    TextSection,
+    ParticleLinesSection
 };
 
 export default {
