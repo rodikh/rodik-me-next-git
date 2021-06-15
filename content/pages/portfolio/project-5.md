@@ -5,11 +5,6 @@ date: '2021-01-10'
 thumb_image: images/work-magazine-1-thumb.jpg
 thumb_image_alt: Nature Magazine preview
 sections:
-  - type: image_section
-    image: images/work-magazine-1.jpg
-    image_alt: Nature Magazine 1
-    caption: This is the caption of the image
-    width: wide
   - options:
       particle_count: 150
     type: particle_lines_section
