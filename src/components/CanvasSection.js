@@ -31,9 +31,6 @@ export default class CanvasSection extends React.Component {
         }
         
         this.interval = setInterval(this.tick.bind(this), 1000 / this.fps);
-
-        // new ParticleLines(this.canvasRef.current, {particlesAmount: section.options.particle_count, maxDistance: 150});
-
     }
 
     demoTypes = {
