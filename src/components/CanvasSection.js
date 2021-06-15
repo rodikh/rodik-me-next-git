@@ -51,7 +51,6 @@ export default class CanvasSection extends React.Component {
                 const emitter2 = new ParticleEmitter({x:50, y: 100}, {x:3, y:0}, canvas, {color: '0,255,0', isDecaying: true});
                 const emitter3 = new ParticleEmitter({x:50, y: 150}, {x:3, y:0}, canvas, {color: '0,0,255', isDecaying: true});
                 this.drawQueue.push(exploder, emitter1, emitter2, emitter3);
-
             },
             down: () => {}
         }
