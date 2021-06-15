@@ -18,7 +18,7 @@ import PortfolioSection from './PortfolioSection';
 import PostsSection from './PostsSection';
 import TestimonialsSection from './TestimonialsSection';
 import TextSection from './TextSection';
-import ParticleLinesSection from './ParticleLinesSection';
+import CanvasSection from './CanvasSection';
 
 export {
     Action,
@@ -41,7 +41,7 @@ export {
     PostsSection,
     TestimonialsSection,
     TextSection,
-    ParticleLinesSection
+    CanvasSection
 };
 
 export default {
