@@ -29,6 +29,7 @@ sections:
       arcu accumsan lorem amet accumsan.
   - options: {}
     type: canvas_section
+    demo_type: particles
 seo:
   title: Nature Magazine
   description: This is the sample project description
