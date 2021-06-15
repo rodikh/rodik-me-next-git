@@ -10,7 +10,7 @@ export default class ParticleLinesSection extends React.Component {
         this.canvasRef = React.createRef();
     }
     componentDidMount() {
-
+        
     }
 
     render() {
@@ -18,7 +18,7 @@ export default class ParticleLinesSection extends React.Component {
         
         return (
             <div className="text-block container container--md">
-                <canvas id={section.canvas_id} />
+                <canvas id={section.canvas_id} ref={canvasRef} />
             </div>
 
         );
