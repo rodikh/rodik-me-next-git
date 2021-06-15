@@ -710,10 +710,9 @@ models:
         name: options
         label: Options
         fields:
-        - type: number
-          name: particle_count
-          label: Particle Count
-          default: 50
+        - type: text
+          name: demo_configuration
+          label: Demo Configuration
         - type: enum
           name: demo_type
           label: Demo Type
