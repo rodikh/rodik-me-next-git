@@ -713,7 +713,7 @@ models:
         - type: number
           name: particle_count
           label: Particle Count
-          default: 150
+          default: 50
         - type: enum
           name: demo_type
           label: Demo Type
