@@ -9,7 +9,7 @@ sections:
       demo_configuration: '{"particle_count": 50}'
       demo_type: particle-lines
     type: canvas_section
-    demo_type: particles
+    demo_type: particle-lines
   - type: text_section
     content: >
       Particle lines is a particle simulation that uses collision detection to
