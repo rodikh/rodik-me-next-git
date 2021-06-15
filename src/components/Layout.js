@@ -6,9 +6,6 @@ import { withPrefix, classNames } from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 import ParticleLines from '@rodikh/particle-lines'
-    
-        const canvas = document.getElementById('main');
-        new ParticleLines(canvas, {particlesAmount: 100, maxDistance: 150});
 
 export default class Body extends React.Component {
     constructor(props) {
