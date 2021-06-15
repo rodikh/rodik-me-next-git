@@ -8,6 +8,7 @@ export default class ParticleLinesSection extends React.Component {
     constructor (props) {
         super(props);
         this.canvasRef = React.createRef();
+        this.drawQueue = [];
     }
 
     componentDidMount() {
@@ -24,7 +25,7 @@ export default class ParticleLinesSection extends React.Component {
     }
 
     tick() {
-        
+
     }
 
     render() {
