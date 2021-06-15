@@ -703,7 +703,7 @@ models:
         description: The text content of the section
   particlelines_section:
     type: object
-    label: Text Section
+    label: ParticleLines Section
     fields:
       - type: markdown
         name: content
