@@ -38,7 +38,7 @@ sections:
       in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia
       ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
-      euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet
+      euismod nunc adipiscing lacinia  erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
 seo:
   title: Nature Magazine
