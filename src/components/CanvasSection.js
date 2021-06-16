@@ -65,7 +65,7 @@ export default class CanvasSection extends React.Component {
         },
         'quadtree': {
             up: (canvas, options) => {
-                const engine = new ParticleEngine(canvas, {color: '255,255,255', particlesAmount: 50, maxLineDistance: 50});
+                const engine = new ParticleEngine(canvas, {color: '255,255,255', particlesAmount: 50, maxLineDistance: 50, useTree: true, gridLines: true});
                 this.drawQueue.push(engine);
             },
             down: () => {}
