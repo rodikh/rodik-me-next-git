@@ -65,7 +65,7 @@ export default class CanvasSection extends React.Component {
         },
         'quadtree': {
             up: (canvas, options) => {
-
+                
             },
             down: () => {}
         }
