@@ -37,7 +37,7 @@ sections:
     type: canvas_section
   - options:
       demo_configuration: '{}'
-    demo_type: particle-lines
+    demo_type: quadtree
     type: canvas_section
 seo:
   title: Nature Magazine
