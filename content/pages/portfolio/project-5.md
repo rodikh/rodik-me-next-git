@@ -35,6 +35,10 @@ sections:
       demo_configuration: '{}'
     demo_type: forces
     type: canvas_section
+  - options:
+      demo_configuration: '{}'
+    demo_type: particle-lines
+    type: canvas_section
 seo:
   title: Nature Magazine
   description: This is the sample project description
