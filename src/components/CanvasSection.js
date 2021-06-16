@@ -62,6 +62,12 @@ export default class CanvasSection extends React.Component {
                 this.drawQueue.push(emitter1, field, mouseField.field);
             },
             down: () => {}
+        },
+        'quadtree': {
+            up: (canvas, options) => {
+
+            },
+            down: () => {}
         }
     }
 
