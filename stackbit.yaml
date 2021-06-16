@@ -717,7 +717,7 @@ models:
       - type: enum
         name: demo_type
         label: Demo Type
-        options: [particle-lines, particles, forces]
+        options: [particle-lines, particles, forces, quadtree]
   image_section:
     type: object
     label: Image Section
