@@ -104,7 +104,7 @@ An amusing example of why it’s so great when you get to use your own product: 
 
 This might sound mundane, but it immediately put a smile on my face. It made me think of Monday as some sort of Von Neumann machine that uses itself to build and improve itself.
 
-#### **Bonus — Meetless Tuesday**
+## **Bonus — Meetless Tuesday**
 
 Every Tuesday is #MeetLessTuesday, where no meetings are allowed to take place.
 
