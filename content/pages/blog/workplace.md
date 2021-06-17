@@ -3,7 +3,7 @@ title: My 2 week experience of working at Monday.com
 excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
   sapien blandit ac amet faucibus aliquet placerat commodo.
-date: '2018-06-03'
+date: '2018-06-24'
 thumb_image: images/post-6-thumb.jpg
 thumb_image_alt: White desk lamp beside green plant
 image_alt: White desk lamp beside green plant
