@@ -32,7 +32,7 @@ sections:
     layout_style: tiles
     title: Experiments and Projects
     projects_number: 6
-    view_all_label: ' '
+    view_all_label: ' View All'
     view_all_url: portfolio
   - type: cta_section
     section_id: cta
