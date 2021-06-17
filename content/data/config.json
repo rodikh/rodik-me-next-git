@@ -23,11 +23,6 @@
                 "label": "Journal",
                 "url": "/blog/",
                 "style": "link"
-            },
-            {
-                "label": "Contact",
-                "url": "/contact/",
-                "style": "button"
             }
         ]
     },
