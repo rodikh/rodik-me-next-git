@@ -128,3 +128,7 @@ They care deeply about their work, and they are not afraid to sacrifice much for
 I came out to Monday to learn how can my team at Chegg do better as a team, but I found something more than that. I managed to get attached to the people, get hooked on their culture, and respect their work.
 
 I hope I left as much an impact on the people at Monday as they have on me. I know I’ll definitely carry a little bit of Monday in my heart for years to come.
+
+
+
+*This post was originally *[*published on Medium*](https://medium.com/@rodikh\_29830/my-experience-from-a-2-weeks-substitution-at-monday-com-873ee080f950)* on Jun 24, 2018*
