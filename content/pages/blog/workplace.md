@@ -42,19 +42,9 @@ seo:
       relativeUrl: true
 layout: post
 ---
-> During a couple of weeks in April 2018, 
->
-> [Chegg](http://www.chegg.com/)
->
->  collaborated with 
->
-> [Monday](http://www.monday.com/)
->
->  on a unique project, with the aim of sharing cultural and professional expertise with each other, by way of exchanging an employee to work full time in his counterpart’s shoes, to learn about engineering processes and figure out what each company does right, and where it can improve.
+> During a couple of weeks in April 2018, [Chegg](http://www.chegg.com/) collaborated with [Monday](http://www.monday.com/) on a unique project, with the aim of sharing cultural and professional expertise with each other, by way of exchanging an employee to work full time in his counterpart’s shoes, to learn about engineering processes and figure out what each company does right, and where it can improve.
 >
 > I’m Rodik, a software engineer from Chegg, and these were my insights from working at Monday for two weeks.
-
-
 
 # **Part 1 (first days)**
 
@@ -67,8 +57,6 @@ Every single wall is covered with live updating dashboards, each meticulously de
 Some of these dashboards indicate technical details, such as server health and uptime, while others concentrate on sales numbers and user counts. Others yet show the faces of the devs with the highest test coverage, or those of the leading salespersons of the week.
 
 I mean, dashboards are pretty cool, but why go through the effort and expense of having this type of obsession in your culture? What is the end goal?
-
-
 
 ### Ownership
 
@@ -104,7 +92,7 @@ But that’s not even half of it, transparency in Monday is more than just makin
 
 Every morning each employee receives an SMS message which summarizes yesterday’s financial gains and an update on the company’s prime KPI. This puts the data right in the people’s hands, with a stark reminder that your work has a direct impact on the company’s business.
 
-**Monday **was the other cause for the high engagement among employees, which also ties in to the weird beginning of this post.
+\*\*Monday \*\*was the other cause for the high engagement among employees, which also ties in to the weird beginning of this post.
 
 Monday (the product) somehow blurs the lines between who is a developer, who is a product manager, a designer, IT or HR. It is used for everything from task management and project planning, to communication, documentation, backlogging, and even story-telling. It’s like a social network except instead of cat pictures and food-porn, you get to have a meaningful conversation about your products, processes or events that happen in the company.
 
