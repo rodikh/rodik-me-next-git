@@ -1,5 +1,5 @@
 ---
-title: The Elements of Great Workplace Design
+title: My 2 week experience of working at Monday.com
 excerpt: >-
   Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan
   sapien blandit ac amet faucibus aliquet placerat commodo.
