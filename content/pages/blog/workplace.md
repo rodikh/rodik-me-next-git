@@ -92,7 +92,7 @@ But that’s not even half of it, transparency in Monday is more than just makin
 
 Every morning each employee receives an SMS message which summarizes yesterday’s financial gains and an update on the company’s prime KPI. This puts the data right in the people’s hands, with a stark reminder that your work has a direct impact on the company’s business.
 
-\*\*Monday \*\*was the other cause for the high engagement among employees, which also ties in to the weird beginning of this post.
+**Monday** was the other cause for the high engagement among employees, which also ties in to the weird beginning of this post.
 
 Monday (the product) somehow blurs the lines between who is a developer, who is a product manager, a designer, IT or HR. It is used for everything from task management and project planning, to communication, documentation, backlogging, and even story-telling. It’s like a social network except instead of cat pictures and food-porn, you get to have a meaningful conversation about your products, processes or events that happen in the company.
 
