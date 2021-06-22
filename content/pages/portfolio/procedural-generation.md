@@ -11,7 +11,7 @@ sections:
     caption: This is the caption of the image
     width: wide
   - type: text_section
-    content: >-
+    content: >
       Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit
       accumsan sapien blandit ac amet faucibus aliquet placerat commodo.
       Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a
@@ -20,6 +20,12 @@ sections:
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet
       arcu accumsan lorem amet accumsan.
+
+
+      ![](/\_static/app-assets/images/desmond-eagle.jpg)
+
+
+      asdfasdfa
   - type: image_section
     image: images/work-photography-magazine-2.jpg
     image_alt: Subtle 2
